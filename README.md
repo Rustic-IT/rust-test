@@ -2,6 +2,9 @@
 
 A cross-platform desktop application built with Tauri and Rust that presents an always-on-top overlay window to remind users to maintain their computer's integrity and security by rebooting their system when it has been running for an extended period.
 
+[![Build Status](https://github.com/Rustic-IT/rust-test/workflows/Build%20and%20Test/badge.svg)](https://github.com/Rustic-IT/rust-test/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Features
 
 - ⚡ **Always-on-top overlay window** - Ensures visibility to users
@@ -10,6 +13,30 @@ A cross-platform desktop application built with Tauri and Rust that presents an 
 - 🔄 **Actionable buttons** - Reboot now, snooze for later, or dismiss
 - 🖥️ **Cross-platform** - Supports Windows and macOS
 - 🦀 **Built with Rust** - Using the Tauri framework for performance and security
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/Rustic-IT/rust-test.git
+cd rust-test
+
+# Install dependencies
+npm install
+
+# Run in development mode
+npm run tauri dev
+
+# Build for production
+npm run tauri build
+```
+
+## Documentation
+
+- 📖 [Usage Guide](USAGE.md) - Detailed instructions for users and administrators
+- 🔒 [Security](SECURITY.md) - Security considerations and assessment
+- 🤝 [Contributing](CONTRIBUTING.md) - Guidelines for contributors
+- 📝 [License](LICENSE) - MIT License
 
 ## Prerequisites
 
