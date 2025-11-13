@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>System Integrity Reminder</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="header">
+        <h1>⚠️ System Maintenance Required</h1>
+      </div>
+
+      <div class="content">
+        <div class="info-section">
+          <p id="message" class="message"></p>
+          <div class="stats">
+            <p>System Uptime: <strong id="uptime">Loading...</strong></p>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button id="reboot-btn" class="btn btn-primary">
+            🔄 Reboot Now
+          </button>
+          <button id="snooze-btn" class="btn btn-secondary">
+            ⏰ Snooze (4 hours)
+          </button>
+          <button id="dismiss-btn" class="btn btn-secondary">
+            ✕ Dismiss
+          </button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p class="note">For optimal system performance and security, please reboot your computer regularly.</p>
+      </div>
+    </main>
+  </body>
+</html>

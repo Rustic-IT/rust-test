@@ -1,0 +1,5 @@
+{
+  "message": "Your system has been running for an extended period. Please consider rebooting to maintain system integrity and security.",
+  "uptime_threshold_days": 7,
+  "check_uptime": true
+}
